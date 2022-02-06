@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <DebugType>none</DebugType>
+    <BaseOutputPath>..\.build\bin\</BaseOutputPath>
+    <BaseIntermediateOutputPath>..\.build\obj\</BaseIntermediateOutputPath>
+    <ErrorReport>none</ErrorReport>
+    <NeutralLanguage>en-US</NeutralLanguage>
+    <StartupObject>BasicChromeDriverDetectionPatch.Program</StartupObject>
+    <ProduceReferenceAssembly>False</ProduceReferenceAssembly>
+    <Authors>Plot</Authors>
+    <RepositoryType>git</RepositoryType>
+    <Description>A tool that patches the ChromeDriver binary to avert a "basic" bot detection method used by most anti-automation services.</Description>
+    <PackageProjectUrl>https://github.com/Plot1337/BasicChromeDriverDetectionPatch</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Plot1337/BasicChromeDriverDetectionPatch</RepositoryUrl>
+    <PackageLicenseFile>..\LICENSE</PackageLicenseFile>
+    <PackageTags>bot; chrome; automation; csharp; dotnet; selenium; chromedriver; patch; selenium-webdriver; undetected; undetectable</PackageTags>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+  </PropertyGroup>
+
+</Project>
