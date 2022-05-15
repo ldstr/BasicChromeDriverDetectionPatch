@@ -22,5 +22,5 @@ Please note this tool — just like all other methods of making automation harde
 This tool is [licensed under MIT](https://github.com/Plot1337/BasicChromeDriverDetectionPatch/blob/main/LICENSE); do whatever you want with it.
 
 ### Contact:
-- Discord: `Plot#1337` (UID: `918642844179251260`)
+- Discord: `Plot#6969` (UID: `972420573173002310`)
 - Telegram: `@daddyplot`
